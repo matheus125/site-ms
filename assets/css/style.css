@@ -512,7 +512,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# Clientes
 --------------------------------------------------------------*/
 .clients {
   background: #f3f9fd;
@@ -550,6 +550,48 @@ section {
     width: 30%;
   }
 }
+
+/*--------------------------------------------------------------
+# Tecnologias
+--------------------------------------------------------------*/
+.tecnologias {
+  background: #f3f9fd;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.clientecnologiasts .col-lg-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tecnologias img {
+  width: 50%;
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.tecnologias img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+.tecnologias img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+.tecnologias img {
+    width: 30%;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # About Us
